@@ -206,9 +206,41 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-docs/
-
 # Claude AI / Cursor IDE settings
 .claude/
 .cursor/
-CLAUDE.md
+
+# Next.js
+.next/
+out/
+node_modules/
+.DS_Store
+*.pem
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel
+
+# Testing
+coverage/
+
+# Data files
+data/onsen_data.csv
+data/onsen_data_with_coords.csv
+data/scripts/__pycache__/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+docs
